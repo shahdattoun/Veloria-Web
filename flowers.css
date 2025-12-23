@@ -1,0 +1,275 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    direction: rtl;
+    font-family: "Tahoma", "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #f6efff, #f2e5ff);
+    color: #333;
+    line-height: 1.7;
+    padding-bottom: 40px;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    color: #5b2c83;            
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; }
+
+header p,
+header small {
+    text-align: center;
+    color: #7b5a9b;            
+    margin-bottom: 10px;
+}
+
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+nav p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 4px 6px;
+    padding: 7px 18px;
+
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #4c2c72, #8a4ccc); 
+    border: 1px solid #3a2158;
+    border-radius: 999px;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    letter-spacing: 0.3px;
+
+    transition: 0.2s;
+}
+
+nav a:link,
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-image: none;
+    background-color: #f6c453; 
+    color: #4c2c72;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+nav a:active {
+    background-color: #d79b32;
+    color: #ffffff;
+    transform: translateY(1px);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+
+p {
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+    width: 90%;
+    max-width: 1100px;
+}
+
+
+td {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 8px;
+
+    border: 1px solid #ddc7ff;      
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+
+    transition: 0.2s;
+}
+
+
+td:hover {
+    border-color: #8a4ccc;
+    box-shadow: 0 4px 10px rgba(76,44,114,0.25);
+    transform: translateY(-3px);
+}
+
+
+td h3 {
+    margin-bottom: 6px;
+    color: #5b2c83;
+}
+
+
+td p {
+    margin: 6px 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+  
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #e4d6ff;      
+}
+
+
+form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 18px;
+    background-color: #ffffff;
+
+    border: 2px solid #f6c453;      
+    border-radius: 14px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+label {
+    display: block;
+    text-align: right;
+    color: #4c2c72;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #8a4ccc;
+    outline: none;
+}
+
+
+input[type="submit"] {
+    background-color: #4c2c72;
+    color: #fff;
+
+    border: 1px solid #3a2158;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 999px;
+
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #f6c453;  
+    color: #4c2c72;
+}
+
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid #d3b7ff;  
+}
+
+
+.back-link {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4c2c72;                 
+    text-decoration: none;
+    border-bottom: 1px dotted #4c2c72;
+    padding-bottom: 3px;
+}
+
+.back-link:hover {
+    color: #8a4ccc;                 
+    border-bottom-style: solid;
+    letter-spacing: 1px;
+}
+
+.box-options {
+    display: inline-block;
+    text-align: right;
+    background-color: #ffffff;
+    padding: 12px 18px;
+    margin-top: 10px;
+    border: 1px solid #ddc7ff;      
+    border-radius: 12px;
+}
+
+.box-options label {
+    display: inline-block;
+    margin: 4px 10px;
+    font-size: 14px;
+    color: #4c2c72;
+}
+
+.box-options input[type="checkbox"] {
+    margin-left: 4px;
+}
+
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        border-spacing: 10px;
+    }
+
+    td {
+        display: block;
+        width: 90%;
+        margin: 0 auto 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin-bottom: 6px;
+    }
+}
